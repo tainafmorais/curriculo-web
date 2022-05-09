@@ -121,6 +121,7 @@ main {
     min-height: 200px;
     text-align: center;
     padding: 20px;
+    margin-bottom: 20px;
 }
 
 .ferramentas-section h2 {
@@ -145,18 +146,33 @@ main {
     transform: scale(1.08);
 }
 
-.qualificacoes-section {
+.qualificacoes-div {
     background-color: rgb(234, 234, 234);
     box-shadow: 0 3px 3px rgba(0, 0, 0, 0.194);
-    padding: 20px;
-    min-height: 200px;
-}
-
-.qualificacoes-section h2 {
-    color: #103d4c;
+    min-height: 300px;
     text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
+}
+
+.qualificacoes-div img{
+    max-width: 30%;
+    min-width: 250px;
+}
+
+.qualificacoes-section {
+    display: inline-block;
+    vertical-align: top;
+    max-width: 700px;
+    /*background-color: rgb(249, 158, 158);*/
+    padding: 20px 0 20px 20px;
+}
+
+.qualificacoes-div h2 {
+    color: #103d4c;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .qualificacoes-section p {
